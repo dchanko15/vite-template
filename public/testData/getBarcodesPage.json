@@ -1,0 +1,162 @@
+[
+    {
+      "ID" : 214061,
+      "BarcodePageNum" : 10878,
+      "BarcodeType" : "5",
+      "BarcodeID" : 10878,
+      "BarcodeOrdinalNum" : 0,
+      "BarcodeStr" : "*500108789*"
+    },
+    {
+      "ID" : 214062,
+      "BarcodePageNum" : 10878,
+      "BarcodeType" : "5",
+      "BarcodeID" : 10878,
+      "BarcodeOrdinalNum" : 0,
+      "BarcodeStr" : "*500108789*"
+    },
+    {
+      "ID" : 214063,
+      "BarcodePageNum" : 10878,
+      "BarcodeType" : "4",
+      "BarcodeID" : 193799,
+      "BarcodeOrdinalNum" : 1,
+      "BarcodeStr" : "*419379901*"
+    },
+    {
+      "ID" : 214064,
+      "BarcodePageNum" : 10878,
+      "BarcodeType" : "4",
+      "BarcodeID" : 193800,
+      "BarcodeOrdinalNum" : 2,
+      "BarcodeStr" : "*419380002*"
+    },
+    {
+      "ID" : 214065,
+      "BarcodePageNum" : 10878,
+      "BarcodeType" : "4",
+      "BarcodeID" : 193801,
+      "BarcodeOrdinalNum" : 3,
+      "BarcodeStr" : "*419380103*"
+    },
+    {
+      "ID" : 214066,
+      "BarcodePageNum" : 10878,
+      "BarcodeType" : "4",
+      "BarcodeID" : 193802,
+      "BarcodeOrdinalNum" : 4,
+      "BarcodeStr" : "*419380204*"
+    },
+    {
+      "ID" : 214067,
+      "BarcodePageNum" : 10878,
+      "BarcodeType" : "4",
+      "BarcodeID" : 193803,
+      "BarcodeOrdinalNum" : 5,
+      "BarcodeStr" : "*419380305*"
+    },
+    {
+      "ID" : 214068,
+      "BarcodePageNum" : 10878,
+      "BarcodeType" : "4",
+      "BarcodeID" : 193804,
+      "BarcodeOrdinalNum" : 6,
+      "BarcodeStr" : "*419380406*"
+    },
+    {
+      "ID" : 214069,
+      "BarcodePageNum" : 10878,
+      "BarcodeType" : "4",
+      "BarcodeID" : 193805,
+      "BarcodeOrdinalNum" : 7,
+      "BarcodeStr" : "*419380507*"
+    },
+    {
+      "ID" : 214070,
+      "BarcodePageNum" : 10878,
+      "BarcodeType" : "4",
+      "BarcodeID" : 193806,
+      "BarcodeOrdinalNum" : 8,
+      "BarcodeStr" : "*419380608*"
+    },
+    {
+      "ID" : 214071,
+      "BarcodePageNum" : 10878,
+      "BarcodeType" : "4",
+      "BarcodeID" : 193807,
+      "BarcodeOrdinalNum" : 9,
+      "BarcodeStr" : "*419380709*"
+    },
+    {
+      "ID" : 214072,
+      "BarcodePageNum" : 10878,
+      "BarcodeType" : "4",
+      "BarcodeID" : 193808,
+      "BarcodeOrdinalNum" : 10,
+      "BarcodeStr" : "*419380810*"
+    },
+    {
+      "ID" : 214073,
+      "BarcodePageNum" : 10878,
+      "BarcodeType" : "4",
+      "BarcodeID" : 193809,
+      "BarcodeOrdinalNum" : 11,
+      "BarcodeStr" : "*419380911*"
+    },
+    {
+      "ID" : 214074,
+      "BarcodePageNum" : 10878,
+      "BarcodeType" : "4",
+      "BarcodeID" : 193810,
+      "BarcodeOrdinalNum" : 12,
+      "BarcodeStr" : "*419381012*"
+    },
+    {
+      "ID" : 214075,
+      "BarcodePageNum" : 10878,
+      "BarcodeType" : "4",
+      "BarcodeID" : 193811,
+      "BarcodeOrdinalNum" : 13,
+      "BarcodeStr" : "*419381113*"
+    },
+    {
+      "ID" : 214076,
+      "BarcodePageNum" : 10878,
+      "BarcodeType" : "4",
+      "BarcodeID" : 193812,
+      "BarcodeOrdinalNum" : 14,
+      "BarcodeStr" : "*419381214*"
+    },
+    {
+      "ID" : 214077,
+      "BarcodePageNum" : 10878,
+      "BarcodeType" : "4",
+      "BarcodeID" : 193813,
+      "BarcodeOrdinalNum" : 15,
+      "BarcodeStr" : "*419381315*"
+    },
+    {
+      "ID" : 214078,
+      "BarcodePageNum" : 10878,
+      "BarcodeType" : "4",
+      "BarcodeID" : 193814,
+      "BarcodeOrdinalNum" : 16,
+      "BarcodeStr" : "*419381416*"
+    },
+    {
+      "ID" : 214079,
+      "BarcodePageNum" : 10878,
+      "BarcodeType" : "4",
+      "BarcodeID" : 193815,
+      "BarcodeOrdinalNum" : 17,
+      "BarcodeStr" : "*419381517*"
+    },
+    {
+      "ID" : 214080,
+      "BarcodePageNum" : 10878,
+      "BarcodeType" : "4",
+      "BarcodeID" : 193816,
+      "BarcodeOrdinalNum" : 18,
+      "BarcodeStr" : "*419381618*"
+    }
+  ]

@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
-    <ui-button color="primary">აბა ჰე</ui-button>
-    <ui-select v-model="selVal" :options="['ერთიიიი','ორიიიი']"></ui-select>
+    <ui-button color="primary" @click="readBarcode()">აბა ჰე</ui-button>
+    <barcode-reader  ref="$$modal"></barcode-reader>
   </div>
 </template>
 
@@ -9,6 +9,7 @@
 
 import UiButton from 'keen-ui/src/UiButton.vue';
 import UiSelect from 'keen-ui/src/UiSelect.vue';
+import BarcodeReader from './BarcodeReader.vue'
 
 export default {
   name: 'HelloWorld',
@@ -21,7 +22,13 @@ export default {
   }),
   components: {
     UiButton,
-    UiSelect
+    UiSelect,
+    BarcodeReader
+  },
+  methods: {
+    readBarcode(){
+      this.$refs.$$modal.open();
+    }
   }
 }
 </script>

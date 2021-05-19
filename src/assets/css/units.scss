@@ -1,0 +1,129 @@
+@use "sass:string";
+$sizes: 12;
+
+@mixin margin-classes {
+  @for $i from 1 through $sizes {
+    $margin: $i * 0.25rem;
+    /* margin #{$margin} */
+    .m#{$i} {
+      margin: $margin;
+    }
+    .ml#{$i} {
+      margin-left: $margin;
+    }
+    .mr#{$i} {
+      margin-right: $margin;
+    }
+    .mt#{$i} {
+      margin-top: $margin;
+    }
+    .mb#{$i} {
+      margin-bottom: $margin;
+    }
+    .mx#{$i} {
+      margin-left: $margin;
+      margin-right: $margin;
+    }
+    .my#{$i} {
+      margin-top: $margin;
+      margin-bottom: $margin;
+    }
+  }
+}
+@include margin-classes;
+
+
+@mixin padding-classes {
+  @for $i from 1 through $sizes {
+    $padding: $i * 0.25rem;
+    /* padding #{$padding} */
+    .p#{$i} {
+      padding: $padding;
+    }
+    .pl#{$i} {
+      padding-left: $padding;
+    }
+    .pr#{$i} {
+      padding-right: $padding;
+    }
+    .pt#{$i} {
+      padding-top: $padding;
+    }
+    .pb#{$i} {
+      padding-bottom: $padding;
+    }
+    .px#{$i} {
+      padding-left: $padding;
+      padding-right: $padding;
+    }
+    .py#{$i} {
+      padding-top: $padding;
+      padding-bottom: $padding;
+    }
+  }
+}
+@include padding-classes;
+
+
+$sides: left, right, top, bottom;
+@mixin borders-classes {
+  $border: 1px solid silver;
+  @each $side in $sides {
+    .b-#{string.slice($side,1,1)} {
+      border-#{$side} : $border;
+    }
+  }
+}
+@include borders-classes;
+
+$positions: left, center, right;
+@mixin text-align-classes {
+  @each $side in $positions {
+    .ta-#{string.slice($side,1,1)} {
+      text-align: $side;
+    }
+  }
+}
+@include text-align-classes;
+
+
+$hSizes : 5;
+@mixin header-classes {
+  @for $i from 1 through $hSizes {
+    $margin: #{2rem - $i * 0.3rem};
+    /* margin #{$margin} */
+    h#{$i} {
+      font-size: $margin;
+    }
+  }
+}
+@include header-classes;
+
+
+
+
+option, select {
+  font-family: bpg_Arial, Helvetica, Arial, sans-serif;
+  font-size: 0.95rem;
+  color: #393939;
+}
+.container {
+  max-width: 1190px;
+  z-index: 0;
+  --min-width: 1000px
+}
+
+.section {
+  background-color: white;
+  -opacity: 0.95;
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+  padding: 1.5em;
+  margin: 1.2em  2.1em 1.2em 1.2em;
+  min-height: 80%;
+}
+
+.ui-alert__body {
+  min-height: 0;
+}
