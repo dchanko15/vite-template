@@ -10,14 +10,13 @@ import store2 from 'store2'
 
 import './assets/css/font_bpg_arial.css'
 import 'flexboxgrid2/flexboxgrid2.min.css'
-import './assets/css/units.scss'
 import loadConfigData from './configData.js'
 
 
 async function getUrl(url, data) {
   let link;
   if (Vue.prototype.$globalState.apiUrl.indexOf("/testData") === -1) {
-    link = url;
+    link = Vue.prototype.$globalState.apiUrl+url;
   } else
     link = Vue.prototype.$globalState.baseUrl + "testData/"+url + ".json";
 
@@ -25,12 +24,13 @@ async function getUrl(url, data) {
 }
 
 async function postUrl(url, data) {
+  let link;
   if (Vue.prototype.$globalState.apiUrl.indexOf("/testData") === -1) {
-    return await axios.post(url, data);
-  } else {
-    let link = Vue.prototype.$globalState.baseUrl +"testData/"+ url + "-response.json";
-    return await axios.get(link);
-  }
+    link = Vue.prototype.$globalState.apiUrl+url;
+  } else
+    link = Vue.prototype.$globalState.baseUrl + "testData/"+url + ".json";
+
+  return await axios.post(link, data);
 }
 
 

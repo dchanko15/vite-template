@@ -1,15 +1,15 @@
 <template>
-  <div class="hello">
-    <ui-button color="primary" @click="readBarcode()">აბა ჰე</ui-button>
-    <barcode-reader  ref="$$modal"></barcode-reader>
+  <div >
+    <ui-button  color="primary" >აბა ჰე</ui-button>
+
   </div>
 </template>
 
 <script>
 
 import UiButton from 'keen-ui/src/UiButton.vue';
-import UiSelect from 'keen-ui/src/UiSelect.vue';
-import BarcodeReader from './BarcodeReader.vue'
+
+
 
 export default {
   name: 'HelloWorld',
@@ -22,13 +22,11 @@ export default {
   }),
   components: {
     UiButton,
-    UiSelect,
-    BarcodeReader
+
+
   },
   methods: {
-    readBarcode(){
-      this.$refs.$$modal.open();
-    }
+
   }
 }
 </script>
